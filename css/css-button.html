@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <style>
+
+        *{
+            font-family: 'Montserrat', sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 15px;
+            background-color: rgb(253, 253, 253);
+        }
+
+        .card{
+            width: 250px;
+            /* border: 1px solid black; */
+            border-radius: 15px;
+            display: inline-block;
+            overflow: hidden;
+            /* margin-right:20px; */
+            background-color: #fff;
+            vertical-align: top;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin: 20px 20px;
+            
+        }
+
+        .card-body{
+            padding: 10px;
+        }
+
+        .card-title{
+            margin-top: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card-paragrad{
+            margin-bottom: 0;
+            color: #767676;
+        }
+
+        .card-img{
+            width: 100%;
+            height: 150px;
+            display: block;
+        }
+
+        .card-icon{
+            /* text-align: center; */
+            margin: 30px 0px;
+        
+
+        }
+
+        .add-to-card{
+            width: 40px;
+            height: 40px;
+            background-color: #000;
+            color: #ffff;
+            border: none;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-top: -20px;
+            position: relative;
+            margin-right: 15px;
+                }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .text-right{
+            text-align: right;
+        }
+
+        .see-more{
+            width: 150px;
+            height: 40px;
+            background-color: #000;
+            color: #ffff;
+            border: none;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            margin-bottom: -20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+        <p class="card-title">Min Ga Lar Par</p>
+        <p class="card-paragrad">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iusto voluptatibus.
+        </p>
+        </div>
+    </div>
+
+    
+        <div class="card">
+            <div class="card-body text-center">
+            <p class="card-title">Min Ga Lar Par</p>
+            <p class="card-paragrad">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iusto voluptatibus.
+            </p>
+            </div>
+        </div>
+
+        
+            <div class="card">
+                <div class="card-body text-right">
+                <p class="card-title">Min Ga Lar Par</p>
+                <p class="card-paragrad">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iusto voluptatibus.
+                </p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <img src="./assets/html3.jpg.jpg" class="card-img" alt="">
+                <div class="card-body">
+                <p class="card-title">Min Ga Lar Par</p>
+                <p class="card-paragrad">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iusto voluptatibus.
+                </p>
+                </div>
+            </div>
+
+            
+        <div class="card" style="overflow: visible;">
+            <div class="card-body text-center">
+            <i class="card-icon fas fa-home fa-3x"></i>
+            <p class="card-title">My Dream</p>
+            <p class="card-paragrad">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iusto voluptatibus.
+            </p>
+            </div>
+            <button class="see-more">See More</button>
+        </div>
+      
+
+        <div class="card">
+            <img src="./assets/html4.jpg.jpg" class="card-img" alt="">
+            <button class="add-to-card">
+                <i class="fas fa-plus"></i>
+            </button>
+            <div class="card-body">
+            <p class="card-title">New img Pro</p>
+            <p class="card-paragrad">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iusto voluptatibus.
+            </p>
+            </div>
+        </div>
+
+</body>
+</html>

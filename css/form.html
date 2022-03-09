@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+            color: #5d5d5a;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: #ffa45c;
+        }
+
+        form{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .login-form{
+            width: 350px;
+            border: 2px solid #ffcdab;
+            padding: 30px 20px;
+            border-radius: 10px;
+            /* margin: 200px auto; */
+            height: 320px;
+        }
+
+        .login-form legend{
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .form-input{
+            margin-bottom: 20px;
+        }
+
+        .form-input label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-input input{
+            display: block;
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px 15px;
+            border: 2px solid #ffcdab;
+            background:#fff4e3;
+        }
+
+        .btn{
+            border-radius: 10px;
+            padding: 10px 15px;
+            border: 2px solid #5d5d5a;
+            background-color: #5d5d5a;
+            color: #fff4e3;
+            margin-right: 10px;
+        }
+
+        .text-light{
+            color: #fff4e3;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form>
+        <fieldset class="login-form">
+            <legend class="text-light">
+                <i class="fas fa-unlock-alt text-light fa-fw"></i>
+                login form
+            </legend>
+
+            <div class="form-input">
+                <label for="" class="text-input">
+                    <i class="fas fa-user text-light fa-fw"></i>
+                    User New
+                </label>
+                <input type="text" name="">
+            </div>
+
+            <div class="form-input">
+                <label for="" class="text-input">
+                    <i class="fas fa-key text-light fa-fw"></i>password
+                </label>
+                <input type="password" name="">
+            </div>
+
+            <button class="btn">
+                <i class="fas fa-lock-open text-light fa-fw"></i>longin
+            </button>
+
+            <a href="a" class="reg-link">Register Account</a>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

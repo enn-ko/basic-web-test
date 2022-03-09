@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+       
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+
+    <body>
+        <!-- h1.one#aa[title="hello hello"]{Min Ga Lar Par $}*3 -->
+        <!-- h1.one#aa[title="hello hello"]{Min Ga Lar Par $$$}*3 -->
+        <h1 class="one" id="aa" title="hello hello">Min Ga Lar Par 1</h1>
+        <h1 class="one" id="aa" title="hello hello">Min Ga Lar Par 2</h1>
+        <h1 class="one" id="aa" title="hello hello">Min Ga Lar Par 3</h1>
+        <!-- header.aa+fooder.bb -->
+        <header class="aa"></header>
+        <fooder class="bb"></fooder>
+        <!-- ul>li{list} -->
+        <ul>
+            <li>list</li>
+        </ul>
+        <!-- ul.list-group>li.list-group-item{list $}*5 -->
+        <ul class="list-group">
+            <li class="list-group-item">list 1</li>
+            <li class="list-group-item">list 2</li>
+            <li class="list-group-item">list 3</li>
+            <li class="list-group-item">list 4</li>
+            <li class="list-group-item">list 5</li>
+        </ul>
+        <!-- ul.list-group>li.list-group-item{list $}*5>span{$} -->
+        <ul class="list-group">
+            <li class="list-group-item">list 1<span>1</span></li>
+            <li class="list-group-item">list 2<span>2</span></li>
+            <li class="list-group-item">list 3<span>3</span></li>
+            <li class="list-group-item">list 4<span>4</span></li>
+            <li class="list-group-item">list 5<span>5</span></li>
+        </ul>
+        <!-- section.container>div.row>div.col-12.col-4*3 -->
+        <section class="containar">
+            <div class="row">
+                <div class="col-12 col-lg-4"></div>
+                <div class="col-12 col-lg-4"></div>
+                <div class="col-12 col-lg-4"></div>
+            </div>
+        </section>
+        <!-- section.container>(div.row>div.col-12.col-lg-4*3)+div.row>div.col-12.col-lg-6*2 -->
+        <section class="containar">
+            <dic class="row">
+                <div class="col-12 col-lg4"></div>
+                <div class="col-12 col-lg4"></div>
+                <div class="col-12 col-lg4"></div>
+            </dic>
+            <div class="row">
+                <div class="col-12 col-lg-6"></div>
+                <div class="col-12 col-lg-6"></div>
+            </div>
+        </section>
+
+    </body>
+    </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        p{
+            border: 1px solid black;
+            padding: 20PX;
+            display: inline-block;
+            width: 30%;
+        }
+
+        @media screen and (max-width:1024px) {
+            body{
+                background-color: pink;
+            }
+            
+            p{
+                width: 40%;
+            }
+
+            p:last-child{
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            body{
+                background-color: orange;
+            }
+
+            p{
+                width: 100% !important; 
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat aut perferendis atque minus dolor consectetur saepe dolores totam ipsam ut omnis, voluptatem odit error repellat necessitatibus at. Eaque, molestiae quisquam!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat odit quod saepe hic sint excepturi tempore quia voluptatibus rerum magnam maxime culpa dolorum eaque magni sequi provident aliquam, exercitationem delectus?
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perferendis, consectetur laudantium sit, harum consequuntur voluptatem cupiditate facere, rerum voluptas nihil cum illo quaerat magnam et. Omnis accusantium tempora itaque.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti error laboriosam quo facilis, earum numquam unde culpa quisquam voluptatem minus excepturi reiciendis, cum esse neque at veniam itaque labore distinctio!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eaque exercitationem, reprehenderit non expedita sint inventore adipisci repudiandae laborum. Exercitationem et, commodi natus earum rerum nesciunt est dolore tempora eligendi!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro soluta laboriosam ipsa vitae, voluptatum esse unde quasi expedita pariatur maiores architecto incidunt hic eos vel sint repellendus suscipit praesentium?
+    </p>
+
+
+</body>
+</html>

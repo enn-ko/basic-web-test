@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .displaybox{
+            font-size: 60px;
+        }
+        .key{
+            font-size: 30px;
+            margin: 10px;
+            padding: 10px;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="displaybox"></div>
+    <div class="keypad"></div>
+
+    <script>
+        let displayBox = document.querySelector(".displaybox");
+        let keyPad = document.querySelector(".keypad");
+        let operators = ["+","-","*","/","%","="];
+
+        for(let i=0; i<10; i++){
+            keyPad.innerHTML += `<button class="key" onclick="showInDisplay(${i})"> ${i}</button>`;
+        }
+        
+        operators.forEach(x=> {
+            if(x === "="){
+            keyPad.innerHTML += `<button class = "key" onclick="calc()"> ${x}</button>`
+
+            }else{
+            keyPad.innerHTML += `<button class = "key" onclick="showInDisplay('${x}')"> ${x}</button>`}});
+
+        let showInDisplay = x=> displayBox.innerText += x;
+
+        let calc = _=>displayBox.innerText =eval(displayBox.innerText);
+    </script>
+</body>
+</html>
